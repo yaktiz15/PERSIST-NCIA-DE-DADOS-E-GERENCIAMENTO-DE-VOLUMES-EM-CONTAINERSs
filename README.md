@@ -8,8 +8,6 @@ git --version
 Testar Docker
 docker run hello-world
 
-<img width="1377" height="788" alt="Captura de tela 2026-05-11 202814" src="https://github.com/user-attachments/assets/14baedec-1bed-4aaa-978a-e754d5676163" />
-
 Cenário 1 — Persistência de Dados com MySQL e Named Volume
 1. Criar Volume Docker
 docker volume create mysql-prod-data
