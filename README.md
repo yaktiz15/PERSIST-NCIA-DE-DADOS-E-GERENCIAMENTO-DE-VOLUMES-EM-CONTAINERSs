@@ -219,7 +219,7 @@ VALUES
 ('Maria', 'maria@email.com'),
 ('Carlos', 'carlos@email.com');
 
-Modelo de README.md
+
 1. Introdução
 Explique:
 ·Persistência em containers
@@ -244,22 +244,8 @@ Docker: 28.x
 Docker Compose: v2.x
 Memória RAM: 8GB
 CPU: Intel i5
-
-3. Desenvolvimento da Atividade
-Separar:
-·Cenário 1 
-·Cenário 2 
-·Cenário 3 
-·Cenário 4 
-·Cenário 5 
-Cada um contendo:
-·Objetivo 
-·Comandos 
-·Explicação técnica 
-·Resultado esperado 
-
+ 
 4. Evidências
-Adicionar prints:
 ·docker ps 
 ·docker volume ls 
 ·SELECT no MySQL 
