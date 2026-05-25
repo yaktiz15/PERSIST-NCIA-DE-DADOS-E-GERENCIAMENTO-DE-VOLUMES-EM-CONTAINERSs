@@ -8,13 +8,19 @@ git --version
 Testar Docker
 docker run hello-world
 
+<img width="1912" height="1077" alt="Captura de tela 2026-05-25 204642" src="https://github.com/user-attachments/assets/e8f34c3d-da6a-45c1-8de7-b392c725a1b0" />
+
+
 Cenário 1 — Persistência de Dados com MySQL e Named Volume
 1. Criar Volume Docker
 docker volume create mysql-prod-data
 Verificar:
 docker volume ls
 
-2. Criar Container MySQL
+<img width="1918" height="1076" alt="Captura de tela 2026-05-25 204832" src="https://github.com/user-attachments/assets/29d59f65-31bb-4034-b31b-ab74eccefaae" />
+
+
+3. Criar Container MySQL
 docker run -d \
 --name mysql-prod \
 -e MYSQL_ROOT_PASSWORD=123456 \
@@ -25,12 +31,12 @@ mysql:8.0
 Verificar container:
 docker ps
 
-3. Acessar MySQL
+4. Acessar MySQL
 docker exec -it mysql-prod mysql -u root -p
 Senha:
 123456
 
-4. Criar Tabela e Inserir Dados
+5. Criar Tabela e Inserir Dados
 USE empresa;
 
 CREATE TABLE usuarios (
